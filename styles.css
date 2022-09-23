@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.indice{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1292px;
+    height: 96px;
+    left: 55px;
+    top: 40px;
+
+}
+
+.linha{
+    position: relative;
+    right: -20px;
+    background-color:black;
+    height: 3px;
+    width: 700px;
+}
+
+.img{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+
+.buttonnav{
+    width: 542px;
+    height: 19px;
+    left: 733px;
+    top: 79px;
+}
+
+.textopri{
+    position: absolute;
+    width: 450px;
+    height: 382px;
+    left: 120px;
+    top: 387px;
+}
+
+.text{
+    position: absolute;
+    height: 128px;
+    left: 0.11%;
+    right: 1.22%;
+    top: calc(50% - 128px/2 + 127px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #0328f5;
+}
+
+.spa{
+    position: absolute;
+    height: 172px;
+    left: 0%;
+    right: 1.11%;
+    top: calc(50% - 172px/2 - 47px);
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    /* identical to box height */
+    color: #eb0404;
+}
+
+.travel{
+    position: absolute;
+    height: 34px;
+    left: 1.5%;
+    right: 15.67%;
+    top: calc(50% - 34px/2 - 174px);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 4.725px;
+    color: #06fc2f;
+}
+
+.ex{
+    position: absolute;
+    height: 37px;
+    left: 77.4%;
+    right: 33.78%;
+    top: 100%;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+
+.cir{
+    position: absolute;
+    background-color: #eb0404;
+    border-radius: 50%;
+    width: 430px;
+    height: 430px;
+    left: 900px;
+    top: 70.75%;
+}
+
+.cir2{
+    position: absolute;
+    background-color: #041beb;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    left: 69.80%;
+    right: 33.78%;
+    top: 77%;
+}
+
+body{
+    width: 385.04px;
+    height: 954px;
+    background-repeat: no-repeat;
+    background-image: url(Bitmap.svg);
+    mix-blend-mode: screen;
+    background-position: right center;
+}
