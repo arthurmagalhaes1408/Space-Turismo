@@ -36,7 +36,7 @@
     mix-blend-mode: normal;
     opacity: 0.25;
     height: 3px;
-    width: 700px;
+    width: 100%;
 }
 
 .img{
@@ -72,6 +72,50 @@
     height: 19px;
     left: 733px;
     top: 79px;
+}
+
+.btn_home{
+    background-color: var(--desativado);
+    color: var(--hover);
+    border: none;
+    width: 15%;
+    cursor: pointer;
+    margin: 20px 15px;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.btn_dest{
+    background-color: var(--desativado);
+    color: var(--hover);
+    border: none;
+    width: 20%;
+    cursor: pointer;
+    margin: 20px 15px;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.btn_crew{
+    background-color: var(--desativado);
+    color: var(--hover);
+    border: none;
+    width: 13%;
+    cursor: pointer;
+    margin: 20px 15px;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.btn_tec{
+    background-color: var(--desativado);
+    color: var(--hover);
+    border: none;
+    width: 20%;
+    cursor: pointer;
+    margin: 20px 15px;
+    margin-top: 5px;
+    margin-left: 11px;
 }
 
 .imglua{
