@@ -10,7 +10,6 @@
     align-items: center;
     position: absolute;
     justify-content: space-between;
-    background-color: red;
     padding-left: 10px;
     padding-right: 10px;
     width: 1292px;
@@ -23,17 +22,17 @@
 .linha{
     position: relative;
     right: -20px;
-    background-color:black;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
     height: 3px;
     width: 700px;
 }
 
 .img{
-    background-color: aqua;
     height: 50px;
     width: 50px;
 }
-
 .nav{
     display: flex;
     align-items: center;
@@ -42,7 +41,7 @@
     height: 96px;
     left: 610px;
     top: 40px;
-    background: rgba(255, 255, 255, 0.04);
+    background: grey;
     backdrop-filter: blur(40.7742px);
 }
 
@@ -51,6 +50,8 @@
     height: 19px;
     left: 733px;
     top: 79px;
+    border: none;
+    border-width: 0px 0px;
 }
 
 .textopri{
@@ -73,7 +74,7 @@
     font-size: 18px;
     line-height: 32px;
     /* or 178% */
-    color: #0328f5;
+    color: #D0D6F9;
 }
 
 .spa{
@@ -88,31 +89,31 @@
     font-size: 150px;
     line-height: 172px;
     /* identical to box height */
-    color: #eb0404;
+    color: #FFFFFF;
 }
 
 .travel{
     position: absolute;
     height: 34px;
-    left: 1.5%;
+    left: 0.11%;
     right: 15.67%;
     top: calc(50% - 34px/2 - 174px);
-    font-family: 'Barlow Condensed';
+    font-family: 'Abadi';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 115%;
     line-height: 34px;
     /* identical to box height */
     letter-spacing: 4.725px;
-    color: #06fc2f;
+    color: #D0D6F9;    
 }
 
 .ex{
     position: absolute;
     height: 37px;
-    left: 77.4%;
+    left: 77.70%;
     right: 33.78%;
-    top: 100%;
+    top: 92.5%;
     font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
@@ -125,30 +126,42 @@
 
 .cir{
     position: absolute;
-    background-color: #eb0404;
     border-radius: 50%;
-    width: 430px;
-    height: 430px;
-    left: 900px;
-    top: 70.75%;
+    width: 300px;
+    height: 300px;
+    left: 72.5%;
+    top: 72.50%;
 }
 
 .cir2{
     position: absolute;
-    background-color: #041beb;
+    background: #FFFFFF;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    left: 69.80%;
+    width: 265px;
+    height: 265px;
+    left: 73.80%;
     right: 33.78%;
-    top: 77%;
+    top: 75%;
 }
 
 body{
-    width: 385.04px;
-    height: 954px;
+
+    width: 385.04px; 
+    height: 900px; 
     background-repeat: no-repeat;
     background-image: url(Bitmap.svg);
     mix-blend-mode: screen;
-    background-position: right center;
+    background-position: right;
+}
+
+
+.back{
+    background-image: url(ceu.png);
+    padding-top: 50px;
+    padding-right: 100%;
+    padding-bottom: 216%;
+    padding-left: 80px;
+    mix-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
